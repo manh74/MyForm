@@ -1,0 +1,56 @@
+body{
+	background-image: url('../IMG/bg.png');
+	font-family: Comic Sans MS;
+}
+.option{
+    border-radius: 10px;
+    height: 25px;
+    width: 200px;
+}
+.option:hover{
+   border: 2px solid #E78B90;
+}
+.container{
+	margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+	border: 1px solid;
+	width: 800px;
+    background-color:#f7cac9;
+    justify-content: center;
+}
+label{
+	font-size: 20px;
+}
+input{
+    border-radius: 10px;
+    height: 25px;
+    width: 200px;
+}
+input:hover{
+    border: 2px solid #E78B90;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.submit{
+    margin-top: 5px;
+    background-color: green;
+    color: white;
+    width: 100px;
+}
+.submit:hover{
+    background-color: red;
+}
+span{
+    color: red;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+	color: red;
+}
